@@ -22,9 +22,9 @@ interface Student{
   return (
 
     <>
-    <h1>{students[0].name}, {students[0].age}, {calculateAverageGrade(students[0].grade)}</h1>
-    <h1>{students[1].name}, {students[1].age}, {calculateAverageGrade(students[1].grade)}</h1>
-    <h1>{students[2].name}, {students[2].age}, {calculateAverageGrade(students[2].grade)}</h1>
+    <h1 className='h1'>{students[0].name}, {students[0].age}, {calculateAverageGrade(students[0].grade)}</h1>
+    <h1 className='h2'>{students[1].name}, {students[1].age}, {calculateAverageGrade(students[1].grade)}</h1>
+    <h1 className='h3'>{students[2].name}, {students[2].age}, {calculateAverageGrade(students[2].grade)}</h1>
 
     </>
   )
